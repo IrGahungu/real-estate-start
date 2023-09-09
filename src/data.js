@@ -1,16 +1,16 @@
 // import house images
-import House1 from './assets/img/houses/house1.png';
-import House2 from './assets/img/houses/house2.png';
-import House3 from './assets/img/houses/house3.png';
-import House4 from './assets/img/houses/house4.png';
-import House5 from './assets/img/houses/house5.png';
-import House6 from './assets/img/houses/house6.png';
-import House7 from './assets/img/houses/house7.png';
-import House8 from './assets/img/houses/house8.png';
-import House9 from './assets/img/houses/house9.png';
-import House10 from './assets/img/houses/house10.png';
-import House11 from './assets/img/houses/house11.png';
-import House12 from './assets/img/houses/house12.png';
+import House1 from './assets/img/houses/house1lg.png';
+import House2 from './assets/img/houses/house2lg.png';
+import House3 from './assets/img/houses/house3lg.png';
+import House4 from './assets/img/houses/house4lg.png';
+import House5 from './assets/img/houses/house5lg.png';
+import House6 from './assets/img/houses/house6lg.png';
+import House7 from './assets/img/houses/car1.png';
+import House8 from './assets/img/houses/design1.jpg';
+import House9 from './assets/img/houses/design2.jpg';
+import House10 from './assets/img/houses/design3.jpg';
+import House11 from './assets/img/houses/design4.jpg';
+import House12 from './assets/img/houses/salle1.jpg';
 // import house large images
 import House1Lg from './assets/img/houses/house1lg.png';
 import House2Lg from './assets/img/houses/house2lg.png';
@@ -26,11 +26,11 @@ import House11Lg from './assets/img/houses/house11lg.png';
 import House12Lg from './assets/img/houses/house12lg.png';
 
 // import apartments images
-import Apartment1 from './assets/img/apartments/a1.png';
-import Apartment2 from './assets/img/apartments/a2.png';
-import Apartment3 from './assets/img/apartments/a3.png';
-import Apartment4 from './assets/img/apartments/a4.png';
-import Apartment5 from './assets/img/apartments/a5.png';
+import Apartment1 from './assets/img/apartments/car1.png';
+import Apartment2 from './assets/img/apartments/car2.png';
+import Apartment3 from './assets/img/apartments/car3.png';
+import Apartment4 from './assets/img/apartments/salle2.jpg';
+import Apartment5 from './assets/img/apartments/salle3.jpg';
 import Apartment6 from './assets/img/apartments/a6.png';
 // import apartments large images
 import Apartment1Lg from './assets/img/apartments/a1lg.png';
@@ -41,395 +41,406 @@ import Apartment5Lg from './assets/img/apartments/a5lg.png';
 import Apartment6Lg from './assets/img/apartments/a6lg.png';
 
 // import agents images
-import Agent1 from './assets/img/agents/agent1.png';
-import Agent2 from './assets/img/agents/agent2.png';
-import Agent3 from './assets/img/agents/agent3.png';
-import Agent4 from './assets/img/agents/agent4.png';
-import Agent5 from './assets/img/agents/agent5.png';
-import Agent6 from './assets/img/agents/agent6.png';
-import Agent7 from './assets/img/agents/agent7.png';
-import Agent8 from './assets/img/agents/agent8.png';
-import Agent9 from './assets/img/agents/agent9.png';
-import Agent10 from './assets/img/agents/agent10.png';
-import Agent11 from './assets/img/agents/agent11.png';
-import Agent12 from './assets/img/agents/agent12.png';
+import Agent13 from './assets/img/agents/agent13.png';
 
 export const housesData = [
   {
     id: 1,
-    type: 'House',
+    type: 'For Buying',
     name: 'House 1',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House1,
     imageLg: House1Lg,
-    country: 'United States',
-    address: '7240C Argyle St. Lawndale, CA 90260',
+    imageUrls:[
+      House1Lg,
+      House10Lg,
+      House11Lg,
+      House12Lg,
+    ],
+    country: 'House',
+    number:'5 People are already asking for it,No one paid yet.',
+    address: 'KIGOBE',
     bedrooms: '6',
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '110000',
+    price: '11 MILLIONS FBU',
     agent: {
-      image: Agent1,
-      name: 'Patricia Tullert',
+      image: Agent13,
+      name:'Ir. Gahungu Jean Kevin',
       phone: '0123 456 78910',
     },
   },
   {
     id: 2,
-    type: 'House',
+    type: 'For Buying',
     name: 'House 2',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House2,
     imageLg: House2Lg,
-    country: 'Canada',
-    address: '798 Talbot St. Bridgewater, NJ 08807',
+    imageUrls:[
+      House11Lg,
+      House10Lg,
+      House11Lg,
+      House12Lg,
+    ],
+    country: 'House',
+    number:'10 People are already asking for it,No one paid yet.',
+    address: 'MIROIR',
     bedrooms: '6',
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '140000',
+    price: '55 MILLIONS FBU',
     agent: {
-      image: Agent2,
-      name: 'Daryl Hawker',
+      image: Agent13,
+      name: 'Ir. Gahungu Jean Kevin',
       phone: '0123 456 78910',
     },
   },
   {
     id: 3,
-    type: 'House',
+    type: 'For Buying',
     name: 'House 3',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House3,
     imageLg: House3Lg,
-    country: 'United States',
-    address: '2 Glen Creek St. Alexandria, VA 22304',
+    country: 'House',
+    number:'Already taken,Thank You!',
+    address: 'KIRIRI 2',
     bedrooms: '6',
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '170000',
+    price: '30 MILLIONS FBU',
     agent: {
-      image: Agent3,
-      name: 'Amado Smith',
+      image: Agent13,
+      name: 'Ir. Gahungu Jean Kevin',
       phone: '0123 456 78910',
     },
   },
   {
     id: 4,
-    type: 'House',
+    type: 'For Renting',
     name: 'House 4',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House4,
     imageLg: House4Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'House',
+    number:'5 People are already asking for it,No one paid yet.',
+    address: 'KIGOBE',
     bedrooms: '6',
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '200000',
+    price: '3 MILLIONS/MONTH',
     agent: {
-      image: Agent4,
-      name: 'Kaitlyn Gonzalez',
+      image: Agent13,
+      name: 'Ir. Gahungu Jean Kevin',
       phone: '0123 456 78910',
     },
   },
   {
     id: 5,
-    type: 'House',
+    type: 'For Renting',
     name: 'House 5',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House5,
     imageLg: House5Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'House',
+    number:'5 People are already asking for it,No one paid yet.',
+    address: 'GASEKEBUYE',
     bedrooms: '5',
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2015',
-    price: '210000',
+    price: '4 MILLIONS FBU/MONTH',
     agent: {
-      image: Agent5,
-      name: 'Grover Robinson',
+      image: Agent13,
+      name:'Ir. Gahungu Jean Kevin',
       phone: '0123 456 78910',
     },
   },
   {
     id: 6,
-    type: 'House',
+    type: 'For Renting',
     name: 'House 6',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House6,
     imageLg: House6Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'House',
+    number:'5 People are already asking for it,No one paid yet.',
+    address: 'GITEGA',
     bedrooms: '6',
     bathrooms: '3',
     surface: '6200 sq ft',
     year: '2014',
-    price: '220000',
+    price: '4 MILLIONS FBU/MONTH',
     agent: {
-      image: Agent6,
-      name: 'Karen Sorensen',
+      image: Agent13,
+      name: 'Ir. Gahungu Jean Kevin',
       phone: '0123 456 78910',
     },
   },
   {
     id: 7,
-    type: 'Apartament',
-    name: 'Apartament 1',
+    type: 'For Buying',
+    name: 'Car',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: Apartment1,
     imageLg: Apartment1Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'Cars',
+    number:'10 People interested,Still available.',
     bedrooms: '2',
     bathrooms: '1',
     surface: '1200 sq ft',
     year: '2012',
-    price: '20000',
+    price: '200 MILLIONS FBU',
     agent: {
-      image: Agent7,
-      name: 'Jawhar Shamil Naser',
+      image: Agent13,
+      name:'Ir. Gahungu Jean Kevin',
       phone: '0123 456 78910',
     },
   },
   {
     id: 8,
-    type: 'Apartament',
-    name: 'Apartament 2',
+    type: 'For Buying',
+    name: 'Car',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: Apartment2,
     imageLg: Apartment2Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'Cars',
+    number:'10 People interested,Still available.',
     bedrooms: '3',
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2011',
-    price: '30000',
+    price: '30 MILLIONS FBU',
     agent: {
-      image: Agent8,
-      name: 'Juana Douglass',
+      image: Agent13,
+      name: 'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 9,
-    type: 'Apartament',
-    name: 'Apartament 3',
+    type: 'For Renting',
+    name: 'Car',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: Apartment3,
     imageLg: Apartment3Lg,
-    country: 'United States',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'Cars',
+    number:'10 People interested,Still available.',
     bedrooms: '2',
     bathrooms: '1',
     surface: '1100 sq ft',
     year: '2011',
-    price: '40000',
+    price: '4 MILLIONS FBU/DAY',
     agent: {
-      image: Agent9,
-      name: 'Jerry Schenck',
+      image: Agent13,
+      name: 'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 10,
-    type: 'House',
-    name: 'House 7',
+    type: 'For Renting',
+    name: 'Car',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House7,
     imageLg: House7Lg,
-    country: 'Canada',
-    address: '7240C Argyle St. Lawndale, CA 90260',
+    country: 'Cars',
+    number:'10 People interested,Still available.',
     bedrooms: '5',
     bathrooms: '3',
     surface: '3200 sq ft',
     year: '2015',
-    price: '117000',
+    price: '4 MILLIONS FBU/DAY',
     agent: {
-      image: Agent10,
-      name: 'Vera Levesque',
+      image: Agent13,
+      name: 'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 11,
-    type: 'House',
-    name: 'House 8',
+    type: 'For Buying',
+    name: 'Design',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House8,
     imageLg: House8Lg,
-    country: 'Canada',
-    address: '798 Talbot St. Bridgewater, NJ 08807',
+    country: 'Designs',
+    number:'Available and waiting for you.',
     bedrooms: '7',
     bathrooms: '2',
     surface: '2200 sq ft',
     year: '2019',
-    price: '145000',
+    price: '(NEGOCIABLE)',
     agent: {
-      image: Agent11,
-      name: 'Sofia Gomes',
+      image: Agent13,
+      name: 'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 12,
-    type: 'House',
-    name: 'House 9',
+    type: 'For Buying',
+    name: 'Design',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House9,
     imageLg: House9Lg,
-    country: 'United States',
-    address: '2 Glen Creek St. Alexandria, VA 22304',
+    country: 'Designs',
+    number:'Available and waiting for you.',
     bedrooms: '4',
     bathrooms: '4',
     surface: '4600 sq ft',
     year: '2015',
-    price: '139000',
+    price: '(NEGOCIABLE)',
     agent: {
-      image: Agent12,
-      name: 'Raymond Hood',
+      image: Agent13,
+      name:'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 13,
-    type: 'House',
-    name: 'House 10',
+    type: 'For Buying',
+    name: 'Design',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House10,
     imageLg: House10Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'Designs',
+    number:'Available and waiting for you.',
     bedrooms: '5',
     bathrooms: '2',
     surface: '5200 sq ft',
     year: '2014',
-    price: '180000',
+    price: '(NEGOCIABLE)',
     agent: {
-      image: Agent1,
-      name: 'Patricia Tullert',
+      image: Agent13,
+      name: 'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 14,
-    type: 'House',
-    name: 'House 11',
+    type: 'For Buying',
+    name: 'Design',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House11,
     imageLg: House11Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'Designs',
+    number:'Available and waiting for you.',
     bedrooms: '5',
     bathrooms: '2',
     surface: '3200 sq ft',
     year: '2011',
-    price: '213000',
+    price: '(NEGOCIABLE)',
     agent: {
-      image: Agent2,
-      name: 'Daryl Hawker',
+      image: Agent13,
+      name:'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 15,
-    type: 'House',
-    name: 'House 12',
+    type:'For Renting',
+    name: 'Salle de Reception',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: House12,
     imageLg: House12Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'Salles de Reception',
+    number:'Ready for you,Still available.',
+    address: 'MUTANGA',
     bedrooms: '4',
     bathrooms: '3',
     surface: '5200 sq ft',
     year: '2013',
-    price: '221000',
+    price: '2 MILLIONS FBU(NEGOCIABLE)',
     agent: {
-      image: Agent3,
-      name: 'Amado Smith',
+      image: Agent13,
+      name: 'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 16,
-    type: 'Apartament',
-    name: 'Apartament 16',
+    type: 'For Renting',
+    name: 'Salle de Reception',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: Apartment4,
     imageLg: Apartment4Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
+    country: 'Salles de Reception',
+    number:'Ready for you,Still available.',
+    address: 'ROHERO',
     bedrooms: '2',
     bathrooms: '1',
     surface: '1300 sq ft',
     year: '2011',
-    price: '21000',
+    price: '2 MILLIONS FBU(NEGOCIABLE)',
     agent: {
-      image: Agent4,
-      name: 'Kaitlyn Gonzalez',
+      image: Agent13,
+      name: 'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 17,
-    type: 'Apartament',
-    name: 'Apartament 17',
+    type: 'For Renting',
+    name: 'Salle de Reception',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
     image: Apartment5,
     imageLg: Apartment5Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
+    country: 'Salles de Reception',
+    number:'Ready for you,Still available.',
+    address: '(DECOR)',
     bedrooms: '3',
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2012',
-    price: '32000',
+    price: '2 MILLIONS FBU(NEGOCIABLE)',
     agent: {
-      image: Agent5,
-      name: 'Grover Robinson',
+      image: Agent13,
+      name:'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
   {
     id: 18,
-    type: 'Apartament',
-    name: 'Apartament 18',
+    type: 'For Renting',
+    name: 'Salle de Reception',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: Apartment6,
+      'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
+    image: Apartment6Lg,
     imageLg: Apartment6Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    country: 'Maison de Passage',
+    number:'12 People interested,Still available.',
+    address: 'NGOZI',
     bedrooms: '3',
     bathrooms: '1',
     surface: '1200 sq ft',
     year: '2010',
-    price: '38000',
+    price: '10000 FBU/NUIT',
     agent: {
-      image: Agent6,
-      name: 'Karen Sorensen',
+      image: Agent13,
+      name:'Mr. Etienne',
       phone: '0123 456 78910',
     },
   },
