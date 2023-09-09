@@ -428,8 +428,8 @@ export const housesData = [
     name: 'Salle de Reception',
     description:
       'Discover a charming and spacious house featuring six rooms and three beautifully designed bathrooms. This elegant dwelling provides the perfect balance of comfort and style. With an open floor plan, the living spaces seamlessly flow together, creating an inviting atmosphere for both relaxation and entertaining. The thoughtfully crafted rooms boast a blend of modern sophistication and timeless charm, accentuated by ample natural light. The bathrooms serve as private retreats, exuding luxury with their exquisite fixtures and finishes. Step outside to find a meticulously landscaped garden, offering a serene backdrop for outdoor gatherings or quiet contemplation. This house is a true sanctuary, combining functionality with graceful living. Enjoy the harmonious fusion of elegance and comfort in this remarkable home, where lasting memories can be made.',
-    image: Apartment5Lg,
-    imageLg: Apartment5Lg,
+    image: Apartment4Lg,
+    imageLg: Apartment4Lg,
     country: 'Maison de Passage',
     number:'12 People interested,Still available.',
     address: 'NGOZI',
