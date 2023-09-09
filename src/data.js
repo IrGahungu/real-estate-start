@@ -27,8 +27,8 @@ import House12Lg from './assets/img/houses/house12lg.png';
 
 // import apartments images
 import Apartment1 from './assets/img/apartments/car1.png';
-import Apartment2 from './assets/img/apartments/car2.png';
-import Apartment3 from './assets/img/apartments/car3.png';
+import Apartment2 from './assets/img/apartments/a1lg.png';
+import Apartment3 from './assets/img/apartments/a1lg.png';
 import Apartment4 from './assets/img/apartments/salle2.jpg';
 import Apartment5 from './assets/img/apartments/salle3.jpg';
 import Apartment6 from './assets/img/apartments/a6.png';
